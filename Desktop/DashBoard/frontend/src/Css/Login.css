@@ -1,0 +1,86 @@
+/* Login.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6; /* Light grey background */
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+.login-container input,
+.login-container select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db; /* Light border */
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-container input:focus,
+.login-container select:focus {
+  border-color: #3b82f6; /* Blue focus */
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b82f6; /* Blue button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-container button:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+.login-container p {
+  margin-top: 15px;
+  color: #6b7280; /* Grey text */
+  font-size: 0.9rem;
+}
+
+.login-container p a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.login-container p a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive for mobile */
+@media (max-width: 500px) {
+  .login-container {
+    margin: 30px 20px;
+    padding: 25px 20px;
+  }
+
+  .login-container input,
+  .login-container select,
+  .login-container button {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
